@@ -207,13 +207,13 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid; #8e8f99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
-
+  fill: #8e8f99;
 }
 
 /** ==============team================ */
@@ -267,7 +267,7 @@ address {
 .social-icons-list {
   display: flex;
   align-content: center;
-  justify-self: center;
+  justify-content: center;
   flex-direction: row;
   gap: 24px;
   width: 232px;
@@ -279,17 +279,18 @@ address {
 .social-icons-link {
   width: 40px;
   height: 40px;
-  background-color:#4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
 
 .social-icons-item {
 }
 
-.social-icons-img{
+.social-icons-img {
 }
 
 /** ==============portfolio================ */
@@ -344,8 +345,8 @@ address {
   padding: 100px 0;
 }
 
-.footer-logo-text{
-
+.footer-logo-text {
+  margin-right: 120px;
 }
 .container-footer {
   display: flex;
@@ -373,19 +374,18 @@ address {
   color: #f4f4fd;
   max-width: 264px;
 }
-.social-contact-text{
+.social-contact-text {
   font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 .social-contact {
-width: 208px;
-height: 80px;
-margin-left: 120px;
+  width: 208px;
+  height: 80px;
 }
 .footer-social-icons-list {
   width: 100%;
@@ -397,4 +397,5 @@ margin-left: 120px;
   gap: 16px;
   width: 232px;
   height: 40px;
+  fill: #f4f4fd;
 }
