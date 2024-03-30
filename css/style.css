@@ -133,6 +133,14 @@ address {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -195,6 +203,18 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.features-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid; #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+
+}
 
 /** ==============team================ */
 
@@ -242,6 +262,34 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.social-icons-list {
+  display: flex;
+  align-content: center;
+  justify-self: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.social-icons-link {
+  width: 40px;
+  height: 40px;
+  background-color:#4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons-item {
+}
+
+.social-icons-img{
 }
 
 /** ==============portfolio================ */
@@ -295,6 +343,14 @@ address {
   background: #2e2f42;
   padding: 100px 0;
 }
+
+.footer-logo-text{
+
+}
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -316,4 +372,29 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.social-contact-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.social-contact {
+width: 208px;
+height: 80px;
+margin-left: 120px;
+}
+.footer-social-icons-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-self: center;
+  flex-direction: row;
+  gap: 16px;
+  width: 232px;
+  height: 40px;
 }
